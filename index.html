@@ -3,276 +3,555 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LP Kamak1 | AI/ML Engineer & Instructional Designer</title>
+    <title>LP Kamak - AI/ML Engineer & Data Scientist</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-    <header class="navbar">
+    <nav class="navbar">
         <div class="container">
-            <h1 class="logo">LP Kamak</h1>
-            <nav class="nav-links">
-                <a href="#home">Home</a>
+            <div class="logo">LP Kamak</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
                 <a href="#about">About</a>
                 <a href="#teaching">Teaching</a>
-                <a href="#ai-ml">AI/ML</a>
-                <a href="#data-projects">Data Projects</a>
+                <a href="#aiml">AI/ML</a>
+                <a href="#data">Data Projects</a>
                 <a href="#experience">Experience</a>
                 <a href="#contact" class="btn btn-contact">Contact</a>
-                <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
-            </nav>
+                <button class="theme-toggle" aria-label="Toggle dark/light mode"><i class="fas fa-sun"></i></button>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section id="home" class="hero text-center">
-            <div class="container">
-                <img src="profile.png" alt="Lakshmi Preethi Kamak" class="profile-img">
-                <h2>Lakshmi Preethi Kamak</h2>
-                <p class="title-highlight">AI/ML Engineer</p>
-                <p class="tagline">10+ years of expertise in end-to-end software development, AI/ML research, and instructional design. Transforming complex data into actionable insights and building modern tech solutions.</p>
-                <div class="cta-group">
-                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                    <a href="placeholder-cv.pdf" class="btn btn-secondary" download>Download CV</a>
-                </div>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fas fa-envelope"></i></a>
-                </div>
-                <p class="footer-snippet">Canada Revenue Agency • Lakehead University • Masters in CS (9.7 GPA)</p>
+    <section id="home" class="section hero">
+        <div class="container">
+            <img src="profile.jpg" alt="Lakshmi Preethi Kamak" class="profile-img">
+
+            <h1>Lakshmi Preethi Kamak</h1>
+            <span class="title-highlight">AI/ML Engineer</span>
+            <p class="tagline">10+ years of expertise in end-to-end software development, AI/ML research, and instructional design. Transforming complex data into actionable insights and building modern tech solutions.</p>
+
+            <div class="cta-group">
+                <a href="#contact" class="btn btn-primary"><i class="fas fa-comment-dots"></i> Get in Touch</a>
+                <a href="CV-Link.pdf" class="btn btn-secondary" download><i class="fas fa-download"></i> Download CV</a>
             </div>
-        </section>
 
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-tagline">A passionate technologist with a proven track record of transforming complex challenges into innovative solutions across AI/ML, data engineering, and education.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/lpkamak" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/lpkamak" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:lkamak@lakeheadu.ca" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="footer-snippet">Canada Revenue Agency • Lakehead University • Masters in CS (9.7 GPA)</p>
+        </div>
+    </section>
 
-                <div class="stats-grid">
-                    <div class="stat-card"><h3>10+</h3><p>Years Experience</p></div>
-                    <div class="stat-card"><h3>94.4%</h3><p>Model Accuracy</p></div>
-                    <div class="stat-card"><h3>6000</h3><p>Hours Saved</p></div>
-                    <div class="stat-card"><h3>30%</h3><p>Rollout Reduction</p></div>
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-tagline">A passionate technologist with a proven track record of transforming complex challenges into innovative solutions across AI/ML, data engineering, and education.</p>
+
+            <div class="stats-grid">
+                <div class="stat-card"><h3>10+</h3><p>Years Experience</p></div>
+                <div class="stat-card"><h3>94.4%</h3><p>Model Accuracy</p></div>
+                <div class="stat-card"><h3>6000</h3><p>Hours Saved</p></div>
+                <div class="stat-card"><h3>30%</h3><p>Rollout Reduction</p></div>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="card expertise-card">
+                    <i class="fas fa-brain"></i>
+                    <h4>AI/ML Expertise</h4>
+                    <p>CUDA-based ELM models, NLP classifiers, diffusion models, and AWS ML services</p>
                 </div>
-
-                <div class="expertise-grid">
-                    <div class="card expertise-card">
-                        <i class="fas fa-brain"></i>
-                        <h4>AI/ML Expertise</h4>
-                        <p>CUDA-based ELM models, NLP classifiers, diffusion models, and AWS ML services</p>
-                    </div>
-                    <div class="card expertise-card">
-                        <i class="fas fa-database"></i>
-                        <h4>Data Engineering</h4>
-                        <p>ETL pipelines, business intelligence, and data warehouse management</p>
-                    </div>
-                    <div class="card expertise-card">
-                        <i class="fas fa-code"></i>
-                        <h4>Full-Stack Development</h4>
-                        <p>Angular, Java APIs, cloud integration, and modern web technologies</p>
-                    </div>
-                    <div class="card expertise-card">
-                        <i class="fas fa-chalkboard-teacher"></i>
-                        <h4>Teaching & Mentoring</h4>
-                        <p>Instructional design for AI, Big Data, Cloud Computing, and RDBMS courses</p>
-                    </div>
+                <div class="card expertise-card">
+                    <i class="fas fa-database"></i>
+                    <h4>Data Engineering</h4>
+                    <p>ETL pipelines, business intelligence, and data warehouse management</p>
                 </div>
-
-                <h3 class="subsection-title">Technical Skills</h3>
-                <div class="skills-pills">
-                    <span>Python</span><span>Java</span><span>Angular</span><span>MongoDB</span><span>AWS</span><span>Azure</span><span>Machine Learning</span><span>Data Analytics</span><span>Project Management</span><span>Agile</span><span>DevOps</span><span>Cloud Computing</span>
+                <div class="card expertise-card">
+                    <i class="fas fa-code"></i>
+                    <h4>Full-Stack Development</h4>
+                    <p>Angular, Java APIs, cloud integration, and modern web technologies</p>
                 </div>
-
-                <div class="language-cert-grid">
-                    <div class="card language-card">
-                        <h4><i class="fas fa-globe"></i> Languages</h4>
-                        <ul>
-                            <li>English <span>Fluent</span></li>
-                            <li>French <span>CLB/NCLC Level 2</span></li>
-                        </ul>
-                    </div>
-                    <div class="card cert-card">
-                        <h4><i class="fas fa-key"></i> Key Certifications</h4>
-                        <ul>
-                            <li>Azure Data Scientist Associate</li>
-                            <li>Microsoft Fabric Associate</li>
-                            <li>PMI Gen AI for Project Managers</li>
-                            <li>WhiteHat Certified Secure Developer</li>
-                        </ul>
-                    </div>
+                <div class="card expertise-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h4>Teaching & Mentoring</h4>
+                    <p>Instructional design for AI, Big Data, Cloud Computing, and RDBMS courses</p>
                 </div>
             </div>
-        </section>
 
-        <section id="teaching" class="section">
-            <div class="container">
-                <h2 class="section-title">Instructional Design & Teaching</h2>
-                <p class="section-tagline">Passionate about bridging the gap between academic theory and industry practice through innovative curriculum design and hands-on learning experiences.</p>
+            <h3 class="subsection-title">Technical Skills</h3>
+            <div class="skills-pills">
+                <span>Python</span><span>Java</span><span>Angular</span><span>MongoDB</span><span>AWS</span><span>Azure</span><span>Machine Learning</span><span>Data Analytics</span><span>Project Management</span><span>Agile</span><span>DevOps</span><span>Cloud Computing</span>
+            </div>
 
-                <h3 class="subsection-title">Course Instruction Experience</h3>
-                <div class="course-grid">
-                    <div class="card course-card">
-                        <h4>Big Data Analytics<br><small>Undergraduate</small></h4>
-                        <div class="tags"><span>Hadoop</span><span>Spark</span><span>Data Mining</span><span>Distributed Computing</span></div>
-                    </div>
-                    <div class="card course-card">
-                        <h4>Artificial Intelligence<br><small>Undergraduate</small></h4>
-                        <div class="tags"><span>Machine Learning</span><span>Neural Networks</span><span>Computer Vision</span><span>NLP</span></div>
-                    </div>
-                    <div class="card course-card">
-                        <h4>Cloud Computing<br><small>Undergraduate</small></h4>
-                        <div class="tags"><span>AWS</span><span>Azure</span><span>Distributed Systems</span><span>Microservices</span></div>
-                    </div>
-                    <div class="card course-card">
-                        <h4>Relational Database Management Systems<br><small>Undergraduate</small></h4>
-                        <div class="tags"><span>SQL</span><span>Database Design</span><span>Query Optimization</span><span>ACID Properties</span></div>
+            <div class="language-cert-grid">
+                <div class="card">
+                    <i class="fas fa-globe"></i>
+                    <h4>Languages</h4>
+                    <ul>
+                        <li>English <span>Fluent</span></li>
+                        <li>French <span>CLB/NCLC Level 2</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <i class="fas fa-key"></i>
+                    <h4>Key Certifications</h4>
+                    <ul>
+                        <li>Azure Data Scientist Associate</li>
+                        <li>Microsoft Fabric Associate</li>
+                        <li>PMI Gen AI for Project Managers</li>
+                        <li>WhiteHat Certified Secure Developer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="teaching" class="section">
+        <div class="container">
+            <h2 class="section-title">Instructional Design & Teaching</h2>
+            <p class="section-tagline">Passionate about bridging the gap between academic theory and industry practice through innovative curriculum design and hands-on learning experiences.</p>
+
+            <h3 class="subsection-title">Course Instruction Experience</h3>
+            <div class="course-grid">
+                <div class="card course-card">
+                    <i class="fas fa-book-open"></i>
+                    <h4>Big Data Analytics</h4><small>Undergraduate</small>
+                    <div class="tags"><span>Hadoop</span><span>Spark</span><span>Data Mining</span><span>Distributed Computing</span></div>
+                </div>
+                <div class="card course-card">
+                    <i class="fas fa-robot"></i>
+                    <h4>Artificial Intelligence</h4><small>Undergraduate</small>
+                    <div class="tags"><span>Machine Learning</span><span>Neural Networks</span><span>Computer Vision</span><span>NLP</span></div>
+                </div>
+                <div class="card course-card">
+                    <i class="fas fa-cloud"></i>
+                    <h4>Cloud Computing</h4><small>Undergraduate</small>
+                    <div class="tags"><span>AWS</span><span>Azure</span><span>Distributed Systems</span><span>Microservices</span></div>
+                </div>
+                <div class="card course-card">
+                    <i class="fas fa-table"></i>
+                    <h4>Relational Database Management Systems</h4><small>Undergraduate</small>
+                    <div class="tags"><span>SQL</span><span>Database Design</span><span>Query Optimization</span><span>ACID Properties</span></div>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Teaching Philosophy</h3>
+            <div class="philosophy-grid">
+                <div class="card">
+                    <h4>Hands-On Learning</h4>
+                    <p>Emphasizing practical implementation alongside theoretical concepts to build real-world competency</p>
+                </div>
+                <div class="card">
+                    <h4>Industry Relevance</h4>
+                    <p>Connecting academic concepts to current industry practices and emerging technology trends</p>
+                </div>
+                <div class="card">
+                    <h4>Collaborative Environment</h4>
+                    <p>Fostering peer learning and teamwork to simulate professional development environments</p>
+                </div>
+                <div class="card">
+                    <h4>Continuous Assessment</h4>
+                    <p>Using iterative feedback and project-based evaluation to track and improve learning outcomes</p>
+                </div>
+            </div>
+             <div class="card" style="text-align: center; max-width: 400px; margin: 20px auto;">
+                <i class="fas fa-award"></i> NSERC PromoScience Scholarship Recipient
+            </div>
+
+            <h3 class="subsection-title">Teaching Achievements & Impact</h3>
+            <div class="achievement-grid">
+                <div class="card">
+                    <h4>NSERC PromoScience 'Coding with Python' Program</h4>
+                    <small>Lakehead University & Armstrong Public School • 2021-2022</small>
+                    <ul>
+                        <li>Designed and delivered Python programming curriculum for Grade 7-8 Indigenous students</li>
+                        <li>Created culturally contextualized computational thinking activities including Three Sisters gardening concepts</li>
+                        <li>Developed comprehensive 150-page lab instruction manual with 7 interactive chapters</li>
+                        <li>Successfully transitioned to blended learning during COVID-19 with both online and in-person sessions</li>
+                        <li>Organized Science Odyssey campus visit for 25+ students including coding exercises and cultural packages</li>
+                        <li>Conducted student assessment using adapted Computational Thinking Questionnaire (CTQ) and Blended Learning Questionnaire (BLQ)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Research Assistant - DaTaLab</h4>
+                    <small>Lakehead University • 2021-2023</small>
+                    <ul>
+                        <li>Assisted in undergraduate teaching across 4 technical courses</li>
+                        <li>Developed hands-on lab exercises and practical assignments</li>
+                        <li>Mentored students in capstone projects and research initiatives</li>
+                        <li>Created curriculum materials for emerging AI/ML technologies</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Student Success Impact</h4>
+                    <small>Lakehead University • 2021-2023</small>
+                    <ul>
+                        <li>Guided students to 1st place finish in university Hackathon</li>
+                        <li>Improved student engagement through practical, industry-relevant projects</li>
+                        <li>Developed assessment frameworks for technical skill evaluation</li>
+                        <li>Fostered collaborative learning environments in lab settings</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="aiml" class="section">
+        <div class="container">
+            <h2 class="section-title">AI/ML Projects & Research</h2>
+            <p class="section-tagline">Cutting-edge artificial intelligence and machine learning projects demonstrating expertise in deep learning, computer vision, NLP, and cloud-based ML solutions.</p>
+
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <i class="fas fa-brain"></i>
+                    <h4>CUDA-based ELM Model</h4><small>Machine Learning</small>
+                    <p>Implemented high-performance Extreme Learning Machine using CUDA acceleration, achieving 94.4% accuracy in classification tasks and securing 1st place in university Hackathon.</p>
+                    <div class="tags"><span>CUDA</span><span>Python</span><span>NumPy</span><span>GPU Computing</span><span>Machine Learning</span></div>
+                    <div class="project-metrics">
+                        <span>94.4% Accuracy</span>
+                        <span>1st Place Hackathon Award</span>
+                        <span>GPU Accelerated Performance</span>
                     </div>
                 </div>
 
-                <h3 class="subsection-title">Teaching Philosophy</h3>
-                <div class="philosophy-grid">
-                    <div class="card philosophy-card"><h4>Hands-On Learning</h4><p>Emphasizing practical implementation alongside theoretical concepts to build real-world competency</p></div>
-                    <div class="card philosophy-card"><h4>Industry Relevance</h4><p>Connecting academic concepts to current industry practices and emerging technology trends</p></div>
-                    <div class="card philosophy-card"><h4>Collaborative Environment</h4><p>Fostering peer learning and teamwork to simulate professional development environments</p></div>
-                    <div class="card philosophy-card"><h4>Continuous Assessment</h4><p>Using iterative feedback and project-based evaluation to track and improve learning outcomes</p></div>
+                <div class="card project-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h4>NLP Classification Pipeline</h4><small>Natural Language Processing</small>
+                    <p>Developed comprehensive text classification system using advanced NLP techniques including text embedding methods and transformer models for sentiment analysis and document categorization.</p>
+                    <div class="tags"><span>Python</span><span>NLP</span><span>Text Embeddings</span><span>Transformers</span><span>Scikit-learn</span></div>
+                    <div class="project-metrics">
+                        <span>High Performance Accuracy</span>
+                        <span>Multi-class Classification Scope</span>
+                        <span>Production Ready Deployment</span>
+                    </div>
                 </div>
-                <p class="text-center" style="margin-top: 20px;"><small>NSERC PromoScience Scholarship Recipient</small></p>
 
-                <h3 class="subsection-title">Teaching Achievements & Impact</h3>
-                <div class="achievement-grid">
-                    <div class="card achievement-card">
-                        <h4>NSERC PromoScience 'Coding with Python' Program<br><small>Lakehead University & Armstrong Public School • 2021-2022</small></h4>
-                        <ul>
-                            <li>Designed and delivered Python programming curriculum for Grade 7-8 Indigenous students</li>
-                            <li>Created culturally contextualized computational thinking activities including Three Sisters gardening concepts</li>
-                            <li>Conducted student assessment using adapted Computational Thinking Questionnaire (CTQ) and Blended Learning Questionnaire (BLQ)</li>
-                        </ul>
+                <div class="card project-card">
+                    <i class="fas fa-eye"></i>
+                    <h4>AI Mirror with OpenCV</h4><small>Computer Vision</small>
+                    <p>Created innovative AI mirror application using OpenCV and diffusion models for real-time facial recognition, emotion detection, and augmented reality features.</p>
+                    <div class="tags"><span>Computer Vision</span><span>OpenCV</span><span>Diffusion Models</span><span>Image Processing</span></div>
+                    <div class="project-metrics">
+                        <span>Real-time Processing</span>
+                        <span>Augmented Reality Features</span>
+                        <span>Emotion Detection</span>
                     </div>
-                    <div class="card achievement-card">
-                        <h4>Research Assistant - DataLAB<br><small>Lakehead University • 2021-2023</small></h4>
-                        <ul>
-                            <li>Assisted in undergraduate teaching across 4 technical courses</li>
-                            <li>Developed hands-on lab exercises and practical assignments</li>
-                            <li>Mentored students in capstone projects and research initiatives</li>
-                        </ul>
-                    </div>
-                    <div class="card achievement-card">
-                        <h4>Student Success Impact<br><small>Lakehead University • 2021-2023</small></h4>
-                        <ul>
-                            <li>Guided students to 1st place finish in university Hackathon</li>
-                            <li>Improved student engagement through practical, industry-relevant projects</li>
-                            <li>Fostered collaborative learning environments in lab settings</li>
-                        </ul>
+                </div>
+
+                <div class="card project-card">
+                    <i class="fas fa-cogs"></i>
+                    <h4>AWS Personalize Recommendation System</h4><small>Recommendation Systems</small>
+                    <p>Built scalable recommendation engine using AWS Personalize and SageMaker, handling large-scale user behavior data with automated model training and deployment pipelines.</p>
+                    <div class="tags"><span>AWS</span><span>SageMaker</span><span>Recommendation Systems</span><span>Scalable ML</span></div>
+                    <div class="project-metrics">
+                        <span>High Availability</span>
+                        <span>Automated Training</span>
+                        <span>Cloud Deployment</span>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section id="ai-ml" class="section">
-            <div class="container">
-                <h2 class="section-title">AI/ML Projects & Research</h2>
-                <p class="section-tagline">Cutting-edge artificial intelligence and machine learning projects demonstrating expertise in deep learning, computer vision, NLP, and cloud-based ML solutions.</p>
-
-                <div class="expertise-grid">
-                    <div class="card" style="grid-column: span 2; background-color: #2a2a38;">
-                        <i class="fas fa-brain" style="color: var(--color-accent); font-size: 1.5rem; margin-bottom: 10px;"></i>
-                        <h4>Computational Thinking Research in Blended Learning<br><small>Educational AI Research</small></h4>
-                        <p>Conducted comprehensive research on using Python to teach computational thinking to Indigenous students in remote schools through blended learning environments. Developed assessment instruments combining BLQ and CTQ questionnaires.</p>
-                        <div class="tags" style="margin-top: 15px;">
-                            <span>Python</span><span>Educational Research</span><span>Survey Design</span><span>Statistical Analysis</span><span>Blended Learning</span>
-                        </div>
-                    </div>
+            <h3 class="subsection-title">Research Areas & Expertise</h3>
+            <div class="expertise-grid">
+                <div class="card">
+                    <h4>Deep Learning</h4>
+                    <p>Neural Networks, CNNs, RNNs, Transformers</p>
                 </div>
-
-                <h3 class="subsection-title">Research Areas & Expertise</h3>
-                <div class="expertise-grid">
-                    <div class="card research-card"><h4>Deep Learning</h4><p>Neural Networks, CNNs, RNNs, Transformers</p></div>
-                    <div class="card research-card"><h4>Natural Language Processing</h4><p>Text Classification, Sentiment Analysis, Language Models, Embeddings</p></div>
-                    <div class="card research-card"><h4>Computer Vision</h4><p>Image Recognition, Object Detection, Diffusion Models, OpenCV</p></div>
-                    <div class="card research-card"><h4>Cloud ML</h4><p>AWS SageMaker, AWS EMR, Model Deployment, Scalable ML</p></div>
+                <div class="card">
+                    <h4>Natural Language Processing</h4>
+                    <p>Text Classification, Sentiment Analysis, Language Models, Embeddings</p>
                 </div>
-
-                <h3 class="subsection-title">Key Projects</h3>
-                <div class="projects-grid">
-                    <div class="card project-card">
-                        <h4>CUDA-based ELM Model</h4>
-                        <p>Implemented high-performance Extreme Learning Machine using CUDA acceleration, achieving 94.4% accuracy in classification tasks and securing 1st place in university Hackathon.</p>
-                        <div class="tags"><span>CUDA</span><span>Python</span><span>GPU Computing</span><span>Machine Learning</span></div>
-                    </div>
-                    <div class="card project-card">
-                        <h4>NLP Classification Pipeline</h4>
-                        <p>Developed comprehensive text classification system using advanced NLP techniques including text embedding methods and transformer models for sentiment analysis and document categorization.</p>
-                        <div class="tags"><span>Python</span><span>NLP</span><span>Transformers</span><span>Scikit-learn</span></div>
-                    </div>
-                    <div class="card project-card">
-                        <h4>AI Mirror with OpenCV</h4>
-                        <p>Created innovative AI mirror application using OpenCV and diffusion models for real-time facial recognition, emotion detection, and augmented reality features.</p>
-                        <div class="tags"><span>Computer Vision</span><span>OpenCV</span><span>Diffusion Models</span></div>
-                    </div>
-                    <div class="card project-card">
-                        <h4>AWS Personalize Recommendation System</h4>
-                        <p>Built scalable recommendation engine using AWS Personalize and SageMaker, handling large-scale user behavior data with automated model training and deployment pipelines.</p>
-                        <div class="tags"><span>AWS</span><span>SageMaker</span><span>Recommendation Systems</span></div>
-                    </div>
+                <div class="card">
+                    <h4>Computer Vision</h4>
+                    <p>Image Recognition, Object Detection, Diffusion Models, OpenCV</p>
+                </div>
+                <div class="card">
+                    <h4>Cloud ML</h4>
+                    <p>AWS SageMaker, AWS EMR, Model Deployment, Scalable ML</p>
                 </div>
             </div>
-        </section>
-        
-        <section id="data-projects" class="section">
-            <div class="container">
-                <h2 class="section-title">Data Engineering Projects</h2>
-                <p class="section-tagline">Large-scale data transformation, business intelligence solutions, and enterprise-grade reporting systems with proven impact on operational efficiency.</p>
+        </div>
+    </section>
 
-                <div class="stats-grid">
-                    <div class="stat-card"><h3>6000</h3><p>Hours Saved<br><small>Through automation and optimization</small></p></div>
-                    <div class="stat-card"><h3>60%</h3><p>Cost Reduction<br><small>In reporting layer infrastructure</small></p></div>
-                    <div class="stat-card"><h3>30%</h3><p>Deployment Speed<br><small>Faster rollout through automation</small></p></div>
-                    <div class="stat-card"><h3>100k+</h3><p>API Requests<br><small>Handled per day with optimization</small></p></div>
+
+    <section id="data" class="section">
+        <div class="container">
+            <h2 class="section-title">Data Engineering Projects</h2>
+            <p class="section-tagline">Large-scale data transformation, business intelligence solutions, and enterprise-grade reporting systems with proven impact on operational efficiency.</p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>6000</h3><p>Hours Saved<br>Through automation and optimization</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>60%</h3><p>Cost Reduction<br>In reporting layer infrastructure</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>30%</h3><p>Deployment Speed<br>Faster rollout through automation</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-database"></i>
+                    <h3>100k+</h3><p>API Requests<br>Handled per day with optimization</p>
+                </div>
+            </div>
+
+            <div class="experience-grid">
+                <div class="card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h4>Digital Transformation Dashboards</h4>
+                    <p><i class="fas fa-user-tie"></i> Canada Revenue Agency • 2023-Present</p>
+                    <p>Project leader managing sectional dashboards for digital transformation initiatives, supporting director-level decision making with data-driven insights.</p>
+                    <h5 style="margin-top: 15px;">Key Achievements:</h5>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>Built multilingual Angular application with web accessibility</li>
+                        <li>Implemented cloud-integrated reporting with Azure Blob Storage</li>
+                        <li>Designed APIs handling 50K-100K hits with optimized performance</li>
+                        <li>Achieved 80% testing code coverage with comprehensive quality assurance</li>
+                    </ul>
+                    <div class="tags" style="margin-top: 15px;"><span>Angular</span><span>Java</span><span>MongoDB</span><span>Azure</span><span>RESTful APIs</span><span>Agile</span></div>
                 </div>
 
+                <div class="card">
+                    <i class="fas fa-network-wired"></i>
+                    <h4>Telecommunication Data Pipelines</h4>
+                    <p><i class="fas fa-building"></i> Cognizant Technology Solutions • 2018-2021</p>
+                    <p>Led team of five managing industrial telecommunication data pipelines using advanced ETL tools and agile methodologies for large-scale data transformation.</p>
+                    <h5 style="margin-top: 15px;">Key Achievements:</h5>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>Saved 6000 hours through automated job runs and optimization</li>
+                        <li>Reduced customer wait time by 3 hours per delivery</li>
+                        <li>Enabled migration to Python-based stack from legacy ETL tools</li>
+                        <li>Implemented robust statistical analysis with SciPy and PyTables</li>
+                    </ul>
+                    <div class="tags" style="margin-top: 15px;"><span>Python</span><span>Scipy</span><span>PyTables</span><span>ETL</span><span>Agile</span></div>
                 </div>
-        </section>
 
-
-        <section id="contact-cta" class="cta-banner text-center">
-            <div class="container">
-                <h2>Ready to Start Your Next Project?</h2>
-                <p>Whether you’re looking to implement cutting-edge AI/ML solutions, optimize your data infrastructure, or design effective learning experiences, I’m here to help bring your vision to life.</p>
-                <a href="mailto:lkamak@lakeheadu.ca" class="btn btn-primary">Let's Discuss Your Project</a>
+                <div class="card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Insurance Policy BI & Reporting Layer</h4>
+                    <p><i class="fas fa-building"></i> Solartis Technology Services • 2013-2018</p>
+                    <p>End-to-end development of business intelligence and reporting infrastructure for insurance policy administration, handling millions of policy records.</p>
+                    <h5 style="margin-top: 15px;">Key Achievements:</h5>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>Reduced reporting layer costs by 60% through microservices architecture</li>
+                        <li>Decreased auditing costs by 21% via geostatistical analysis</li>
+                        <li>Automated report generation in multiple formats (PDF, Excel, XML)</li>
+                        <li>Integrated RESTful web services with Java APIs and Hibernate</li>
+                    </ul>
+                    <div class="tags" style="margin-top: 15px;"><span>Java</span><span>Pentaho</span><span>Hibernate</span><span>Microservices</span><span>SQL</span></div>
+                </div>
             </div>
-        </section>
-    </main>
 
-    <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-info">
-                <h4>Lakshmi Preethi Kamak</h4>
-                <p>AI/ML Engineer, Data Scientist, and Instructional Designer with 10+ years of experience in transforming complex challenges into innovative solutions.</p>
+            <h3 class="subsection-title">Data Engineering Expertise</h3>
+            <div class="expertise-grid">
+                <div class="card">
+                    <h4>ETL & Data Processing</h4>
+                    <p>Python, Pandas, NumPy, SciPy, PyTables, SQLAlchemy</p>
+                </div>
+                <div class="card">
+                    <h4>Business Intelligence</h4>
+                    <p>Pentaho, Tableau, Power BI, Data Warehousing, OLAP</p>
+                </div>
+                <div class="card">
+                    <h4>Database Technologies</h4>
+                    <p>SQL, MongoDB, PostgreSQL, MySQL, Oracle, Data Modeling</p>
+                </div>
+                <div class="card">
+                    <h4>Cloud & Analytics</h4>
+                    <p>Azure, AWS, Statistical Analysis, Data Visualization, Reporting</p>
+                </div>
             </div>
-            <div class="footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#ai-ml">AI/ML Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
+        </div>
+    </section>
+
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-tagline">A decade of progressive experience across government, academia, and industry, delivering impactful solutions in software development, data engineering, and AI/ML research.</p>
+
+            <h3 class="subsection-title">Career Timeline</h3>
+
+            <div class="card" style="margin-bottom: 30px;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <h4>IT Developer | Analyst</h4>
+                    <small>October 2023 - Present<br>Full-time</small>
+                </div>
+                <p><i class="fas fa-map-marker-alt"></i> Canada Revenue Agency • Ottawa, ON</p>
+                <p>Project Leader managing sectional dashboards for digital transformation initiatives and full-stack development projects for government services.</p>
+                <h5 style="margin-top: 15px;">Key Achievements:</h5>
+                <ul style="list-style-type: disc; margin-left: 20px;">
+                    <li>Project Leader managing sectional dashboards for digital transformation (DAD DDI, ITB)</li>
+                    <li>Scrum Master for cross-functional teams, reducing scope creep through proactive identification</li>
+                    <li>Built multilingual Angular application with web accessibility for digital tax forms</li>
+                    <li>Built AI-powered APIs leveraging Azure OpenAI Service for dynamic LLM model integration with RAG</li>
+                    <li>Implemented RESTful APIs in Java with MongoDB and Azure Blob Storage integration</li>
+                    <li>Designed high-performance APIs handling 50K-100K hits with optimized performance for partner data exchange</li>
+                    <li>Conducted threat modeling, security assessments, and vulnerability analysis ensuring ITB security policies</li>
+                    <li>Achieved 80% testing code coverage with Karma and Jasmine, created SonarQube code smells</li>
+                    <li>Reduced rollout time by 30% as pathfinder for auto-deployment during maintenance hours</li>
                 </ul>
             </div>
-            <div class="footer-connect">
-                <h4>Connect</h4>
-                <p>lkamak@lakeheadu.ca</p>
-                <p>Thunder Bay, ON / Ottawa, ON</p>
-                <div class="social-links">
-                    <a href="#"><i class="fas fa-envelope"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
+
+            <div class="card" style="margin-bottom: 30px;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <h4>Research Assistant - DaTaLab</h4>
+                    <small>2021 - 2023<br>Graduate Research</small>
+                </div>
+                <p><i class="fas fa-map-marker-alt"></i> Lakehead University • Thunder Bay, ON</p>
+                <p>Advanced data science research and undergraduate teaching in AI/ML and cloud computing.</p>
+                <h5 style="margin-top: 15px;">Key Achievements:</h5>
+                <ul style="list-style-type: disc; margin-left: 20px;">
+                    <li>Developed AI/ML projects: NLP classifiers, text embedding methods, OpenCV diffusion models</li>
+                    <li>Built recommendation systems using AWS Personalize and SageMaker with cloud experiments on AWS EMR</li>
+                    <li>Implemented CUDA-based ELM model achieving 94.4% accuracy, securing 1st place in university Hackathon</li>
+                    <li>Assisted in undergraduate teaching: Big Data, Artificial Intelligence, Cloud Computing, RDBMS</li>
+                    <li>Mentored students in capstone projects and research methodologies</li>
+                </ul>
+            </div>
+
+            <div class="card" style="margin-bottom: 30px;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <h4>Data Engineer Associate</h4>
+                    <small>2018 - 2021<br>Full-time</small>
+                </div>
+                <p><i class="fas fa-map-marker-alt"></i> Cognizant Technology Solutions • Chennai, India</p>
+                <p>Led data engineering teams managing large-scale telecommunication data pipelines and ETL processes.</p>
+                <h5 style="margin-top: 15px;">Key Achievements:</h5>
+                <ul style="list-style-type: disc; margin-left: 20px;">
+                    <li>Led team of five managing industrial telecommunication data pipelines using ETL tools</li>
+                    <li>Performed data profiling and analysis of legacy systems with NumPy and Pandas integration</li>
+                    <li>Constructed cohort business analysis reports using SciPy, PyTables, SQLAlchemy, Seaborn</li>
+                    <li>Enabled migration to Python-based tech stack from traditional ETL tools</li>
+                    <li>Automated job runs, reducing customer delivery wait time by 3 hours, saving 600 hours in total</li>
+                </ul>
+            </div>
+
+            <div class="card" style="margin-bottom: 30px;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <h4>Senior Software Engineer</h4>
+                    <small>2013 - 2018<br>Full-time</small>
+                </div>
+                <p><i class="fas fa-map-marker-alt"></i> Solartis Technology Services • Chennai, India</p>
+                <p>End-to-end development of business intelligence and reporting solutions for insurance industry.</p>
+                <h5 style="margin-top: 15px;">Key Achievements:</h5>
+                <ul style="list-style-type: disc; margin-left: 20px;">
+                    <li>Developed BI and reporting layer for insurance policy administration systems</li>
+                    <li>Led database modeling with HLBR consumption, configuration management, ER diagrams</li>
+                    <li>Designed and deployed microservices with Pentaho Report generation engine</li>
+                    <li>Reduced reporting layer costs by 60% through architectural improvements</li>
+                    <li>Performed geostatistical analysis reducing auditing costs by 21%</li>
+                    <li>Integrated RESTful web services and XHTML UI using Java APIs and Hibernate</li>
+                </ul>
+            </div>
+
+
+            <h3 class="subsection-title">Education</h3>
+            <div class="expertise-grid">
+                <div class="card">
+                    <h4>Master of Science in Computer Science</h4>
+                    <p><i class="fas fa-university"></i> Lakehead University • Thunder Bay, ON</p>
+                    <p>Graduated: 2023</p>
+                    <p>GPA: <span style="font-weight: bold; color: var(--color-accent);">9.7/10 GPA</span></p>
+                    <small style="color: var(--color-accent);"><i class="fas fa-award"></i> NSERC PromoScience Scholarship</small>
+                </div>
+                <div class="card">
+                    <h4>Bachelor of Engineering in Computer Science</h4>
+                    <p><i class="fas fa-university"></i> Anna University • Chennai, India</p>
+                    <p>Graduated: 2013</p>
+                    <p>Foundation in computer science fundamentals and software engineering.</p>
                 </div>
             </div>
         </div>
-        <div class="copyright text-center">
-            <p>© 2025 Lakshmi Preethi Kamak. All rights reserved. Built with ❤️ using React & TypeScript</p>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-tagline">Ready to collaborate on your next AI/ML project, data engineering challenge, or instructional design initiative. Let's build something amazing together.</p>
+
+            <div class="language-cert-grid" style="grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px;">
+                <div class="card">
+                    <h4><i class="fas fa-info-circle"></i> Contact Information</h4>
+                    <div style="margin-top: 20px;">
+                        <p style="font-weight: bold;">Email</p>
+                        <a href="mailto:lkamak@lakeheadu.ca">lkamak@lakeheadu.ca</a>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <p style="font-weight: bold;">Phone</p>
+                        <p>+1 807 709 5628</p>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <p style="font-weight: bold;">Location</p>
+                        <p>Thunder Bay, ON / Ottawa, ON, Canada</p>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <p style="font-weight: bold;">Availability</p>
+                        <p>Available for full-time opportunities</p>
+                    </div>
+                    <a href="mailto:lkamak@lakeheadu.ca" class="btn btn-primary" style="margin-top: 30px;"><i class="fas fa-paper-plane"></i> Send Message</a>
+                </div>
+
+                <div class="card">
+                    <h4><i class="fas fa-lightbulb"></i> Open to Opportunities</h4>
+                    <ul style="list-style-type: disc; margin-left: 20px; margin-top: 20px;">
+                        <li>AI/ML Engineering Roles</li>
+                        <li>Data Science Positions</li>
+                        <li>Full-Stack Development</li>
+                        <li>Instructional Design</li>
+                        <li>Research Collaborations</li>
+                        <li>Consulting Projects</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cta-banner" style="text-align: center;">
+                <h2 style="margin-bottom: 25px;">Ready to Start Your Next Project?</h2>
+                <p style="max-width: 800px; margin: 0 auto 30px;">Whether you're looking to implement cutting-edge AI/ML solutions, optimize your data infrastructure, or design effective learning experiences, I'm here to help bring your vision to life.</p>
+                <a href="#contact" class="btn btn-primary">Let's Discuss Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo">Lakshmi Preethi Kamak</div>
+                    <p style="max-width: 300px; font-size: 0.9rem;">AI/ML Engineer, Data Scientist, and Instructional Designer with 10+ years of experience in transforming complex challenges into innovative solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 style="font-size: 1.1rem;">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aiml">AI/ML Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-connect">
+                    <h4 style="font-size: 1.1rem;">Connect</h4>
+                    <p><a href="mailto:lkamak@lakeheadu.ca">lkamak@lakeheadu.ca</a></p>
+                    <p>Thunder Bay, ON / Ottawa, ON</p>
+                    <div class="social-links" style="margin-top: 10px;">
+                        <a href="mailto:lkamak@lakeheadu.ca"><i class="fas fa-envelope"></i></a>
+                        <a href="https://linkedin.com/in/lpkamak" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/lpkamak" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright" style="text-align: center;">
+                &copy; 2025 Lakshmi Preethi Kamak. All rights reserved. <span style="float: right;">Built with ❤️ using React & TypeScript</span>
+            </div>
         </div>
     </footer>
 
